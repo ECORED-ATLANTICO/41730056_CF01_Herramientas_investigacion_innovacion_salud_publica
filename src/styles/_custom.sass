@@ -99,29 +99,38 @@ figcaption
     background-image: url("../assets/curso/bg1.png") !important
     background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
+    background-image: url("../assets/curso/bg2.png") !important
     background-position: bottom
   &-slider
     //background-image: url("../assets/bg/bg-slider.png") !important
     background-position: bottom
 
-
-
-//CLASES TITULOS//
-.titulo-con-imagen
-  display: flex
-  align-items: center
+/////////IMG_100%_CAJON_MEDIO/////////
+.pst
   position: relative
-.titulo-con-imagen__fondo
-  background-color: #FD9826
+  z-index: 2
+.banner-text
+  background-color: #FFFFFF
   border-radius: 10px
-  padding: 10px 20px
-  display: inline-flex
-  align-items: center
-.titulo-con-imagen__imagen
-  position: absolute
-  left: -30px
-  width: 50px
-.titulo-con-imagen__texto
-  margin: 0
-  padding-left: 20px
+  padding: 50px
+  margin-top: -60px
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  padding: 20px;
+  border-radius: 8px; /* Opcional, para bordes redondeados */
+
+  @media screen and (max-width: $bp-max-sm)
+    margin-top: -10px
+
+
+.bloque-texto-b.color-secundario:before
+  background-color: #DBF8F6 !important
+
+.bloque-texto-g.color-secundario
+  background-color: #DBF8F6
+
+/////////CUSTOM TABS-C//////////
+.tabs-c__header 
+  margin-bottom: 0
+.tabs-c__content-item
+  background-image: url("../assets/curso/bg3.png") !important
+  background-size: cover
