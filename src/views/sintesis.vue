@@ -20,7 +20,7 @@
             p.mb-0 Se presentan los principios éticos que influyen en el desarrollo e implementación de innovaciones, así como los mecanismos de propiedad intelectual y transferencia tecnológica. La documentación aborda el equilibrio entre protección del conocimiento, acceso equitativo y responsabilidad social. Para fortalecer la aplicación de estos conceptos, se detallan los aspectos éticos y legales asociados a la innovación en salud. 
         
         
-        .row.justify-content-center
+        .row.justify-content-center.bg-color-sintesis.tarjeta.p-4
           .col-lg-10.mb-5.bgs.p-4.brad
             figure
               img(src="@/assets/curso/sintesis.svg", alt="El componente formativo Herramientas y normativa de innovación en salud pública ofrece una aproximación integral a los conocimientos fundamentales sobre la innovación aplicada al sector salud y el marco normativo que la regula. Este módulo analiza detalladamente los conceptos, tipos y enfoques de innovación en salud pública, resaltando su relevancia en la transformación de los sistemas de salud, la mejora del acceso y la generación de impacto social, y se desglosan los elementos normativos que orientan su desarrollo responsable. Asimismo, se estudia el ecosistema de innovación desde el modelo de la cuádruple hélice, reconociendo el papel articulador del Estado, la academia, el sector productivo y la sociedad. La propuesta profundiza en los principios éticos que deben guiar la innovación en salud y en la gestión de la propiedad intelectual, promoviendo un equilibrio entre la protección del conocimiento, el acceso equitativo y la sostenibilidad de las soluciones innovadoras.")

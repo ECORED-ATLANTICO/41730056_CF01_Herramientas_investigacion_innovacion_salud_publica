@@ -16,7 +16,7 @@
           .col-lg-8
             p(data-aos="fade-right") La innovación en salud pública hace referencia a la creación o mejora de métodos, procesos, servicios o estrategias que buscan resolver problemas relacionados con la salud de la población. Este concepto se fundamenta en la aplicación del conocimiento generado a través de la investigación, integrando la investigación, el desarrollo y la innovación (I+D+i) para transformar la evidencia científica en soluciones prácticas. 
 
-            .row.align-items-center.bg-color-1.p-4
+            .row.align-items-center.bg-color-3.p-4
               .col-lg-auto
                 img.d-lg-flex.d-none(src="@/assets/curso/tema1/2.svg", style="max-width: 90px").mx-auto
               .col-lg

@@ -64,9 +64,9 @@ figcaption
   &-1
     background-color: #F1F3FB !important
   &-2
-    background-color: #FFE69B
+    background-color: #F1F6F9
   &-3
-    background-color: #D5D1E2
+    background: linear-gradient(90deg,rgba(244, 244, 244, 1) 0%, rgba(255, 255, 255, 1) 100%);
   &-white
     background-color: white !important
     border: 1px solid $lightest-gray
@@ -101,6 +101,9 @@ figcaption
   &-2
     background-image: url("../assets/curso/bg2.png") !important
     background-position: bottom
+  &-2
+    background-image: url("../assets/curso/bg3.png") !important
+    background-position: bottom
   &-slider
     //background-image: url("../assets/bg/bg-slider.png") !important
     background-position: bottom
@@ -134,3 +137,57 @@ figcaption
 .tabs-c__content-item
   background-image: url("../assets/curso/bg3.png") !important
   background-size: cover
+
+//////////CUSTOM BOTONES SLYDER-F/////////
+.slyder-f__btn
+  height: 35px
+  width: 35px
+  max-width: 35px
+  background-color: $color-acento-botones
+  border-radius: 50%
+  padding: 0 !important
+  margin: 0 auto
+  .fa-chevron-left
+    font-size: 20px
+  .fa-chevron-right
+    font-size: 20px
+  
+.slyder-f
+    align-items: center
+
+    .slyder-f__main
+      width: 70%
+
+      @media (min-width: 769px)
+        width: 80%
+      
+////////SOMBRA CAJON//////////
+.box-shadow
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px;
+  border-radius: 8px; /* Opcional, para bordes redondeados */
+
+/////////////ACORDION/////////////
+.acordion__accion__btn--a
+  background-color: #FFD256 !important
+.acordion__activo
+  background-color: #E2E7F7 !important
+.acordion_titulo
+  color: #fff !important
+.acordion__titulo 
+  h3
+    color: $color-sistema-texto  !important
+.acordion__activo
+  .acordion__titulo 
+    h3
+      color: $color-sistema-texto !important
+    
+//////////////CUSTOM TABS-A/////////////
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #FFD256
+.tabs-a__tab
+  background-color: #DBDBDA
+.tarjeta.color-acento-botones--borde
+  background-color: #F1F6F9
+  border: solid 4px #F1F6F9
