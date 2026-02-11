@@ -1,8 +1,8 @@
-# **NOMBRE DEL COMPONENTE FORMATIVO**
+# **Herramientas y normativa de innovación en salud pública**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-atlantico.github.io/ECORED-BASE-REPO/](https://ecored-atlantico.github.io/ECORED-BASE-REPO/)
+[https://ecored-atlantico.github.io/41730056_CF01_Herramientas_investigacion_innovacion_salud_publica/](https://ecored-atlantico.github.io/41730056_CF01_Herramientas_investigacion_innovacion_salud_publica/)
 
 #
 

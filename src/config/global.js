@@ -1,8 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Herramientas y normativa de innovación en salud pública',
+    Description:
+      'Este componente formativo aborda los fundamentos conceptuales, tipos y marcos normativos de la innovación en salud pública, destacando su relación con la investigación, la ética y la propiedad intelectual. Lo anterior, permite comprender la innovación en salud y su aplicación para fortalecer propuestas de investigación contextualizadas y sostenibles.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,28 +36,89 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Innovación en salud pública',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Concepto de innovación',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Innovación e I+D+i',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Tipos de innovación',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Innovación según el cambio',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Innovación según el impacto',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Innovación según el enfoque',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Innovación según nivel de apertura',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Normativa y ecosistema de innovación en salud',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Normativa internacional',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Normativo nacional',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Ecosistema de innovación',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Ética y propiedad intelectual en innovación',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Principios éticos en innovación en salud',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Propiedad intelectual',
+            hash: 't_4_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,22 +168,160 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: '',
+      tema: 'Innovación e I+D+i',
+      referencia:
+        'Organización para la Cooperación y el Desarrollo Económicos. (2015). <em>Manual de Frascati: Guía para la recopilación y presentación de información sobre investigación y desarrollo experimental</em>. OCDE.',
+      tipo: 'Documento técnico internacional',
+      link:
+        'https://www.oecd.org/content/dam/oecd/es/publications/reports/2015/10/frascati-manual-2015_g1g57dcb/9789264310681-es.pdf',
+    },
+    {
+      tema: 'Tipos de innovación',
+      referencia:
+        'Organización para la Cooperación y el Desarrollo Económicos & Eurostat. (2018). <em>Manual de Oslo: Guía para la recopilación e interpretación de datos sobre innovación</em> (4.ª ed.). OCDE.',
+      tipo: 'Manual',
+      link:
+        'https://www.oecd.org/en/publications/oslo-manual-2018_9789264304604-en.html',
+    },
+    {
+      tema: 'Propiedad intelectual',
+      referencia:
+        'Romero Calvo, D., & Cuesta Quintero, J. C. (2004). <em>Propiedad intelectual y salud pública</em>. Cuadernos Latinoamericanos de Administración, 1(1), 57–74.',
+      tipo: 'Artículo académico',
+      link: 'https://www.redalyc.org/pdf/4096/409634371010.pdf',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Ecosistema de innovación',
+      significado:
+        'Conjunto de actores, instituciones y relaciones que facilitan generar, transferir y aplicar innovaciones.',
+    },
+    {
+      termino: 'I+D+i',
+      significado:
+        'Ciclo de investigación, desarrollo e innovación que genera conocimiento aplicado y soluciones nuevas.',
+    },
+    {
+      termino: 'Innovación',
+      significado:
+        'Introducción de algo nuevo o mejorado que genera valor y cambio en la práctica.',
+    },
+    {
+      termino: 'Innovación abierta',
+      significado:
+        'Modelo donde se comparte conocimiento con actores externos para cocrear y aplicar soluciones.',
+    },
+    {
+      termino: 'Innovación social',
+      significado:
+        'Innovación orientada a resolver problemas sociales, priorizando equidad, inclusión y bienestar colectivo.',
+    },
+    {
+      termino: 'Innovación tecnológica',
+      significado:
+        'Uso de avances científicos o técnicos para crear o mejorar productos, servicios o procesos.',
+    },
+    {
+      termino: 'Modelo de cuádruple hélice',
+      significado:
+        'Enfoque que integra Estado, academia, empresa y sociedad civil para impulsar innovación.',
+    },
+    {
+      termino: 'Patente',
+      significado:
+        'Título que concede derecho exclusivo temporal sobre una invención técnica novedosa y útil.',
+    },
+    {
+      termino: 'Propiedad intelectual',
+      significado:
+        'Conjunto de derechos que protegen creaciones intelectuales y regulan su uso y explotación.',
+    },
+    {
+      termino: 'Salud pública',
+      significado:
+        'Campo que protege y mejora la salud poblacional mediante acciones colectivas organizadas.',
+    },
+    {
+      termino: 'Telemedicina / Telesalud',
+      significado:
+        'Prestación de servicios de salud a distancia mediante tecnologías de información y comunicación.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Asociación Médica Mundial. (1964). <em>Declaración de Helsinki: Principios éticos para las investigaciones médicas con participantes humanos</em>.',
+      link:
+        'https://www.wma.net/es/policies-post/declaracion-de-helsinki-de-la-amm-principios-eticos-para-las-investigaciones-medicas-en-seres-humanos/',
+    },
+    {
+      referencia:
+        'Buttigieg, S. C. (2019). <em>Innovation strategies and health system guiding principles to address equity and sustainability in responsible innovation in health</em>. International Journal of Health Policy and Management, 8(9), 570–572.',
+      link: 'https://doi.org/10.15171/ijhpm.2019.50',
+    },
+    {
+      referencia:
+        'Comisión de la Comunidad Andina. (2000). <em>Decisión 486: Régimen común sobre propiedad industrial</em>.',
+      link:
+        'https://www.mincit.gov.co/ministerio/normograma-sig/procesos-misionales/facilitacion-del-comercio-y-defensa-comercial/decisiones-de-la-comunidad-andina/decision-486-de-2000.aspx',
+    },
+    {
+      referencia:
+        'Congreso de la República de Colombia. (2010). <em>Ley 1419 de 2010: Por la cual se establecen los lineamientos para el desarrollo de la telesalud en Colombia</em>.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=40937',
+    },
+    {
+      referencia:
+        'Congreso de la República de Colombia. (2015). <em>Ley 1751 de 2015: Por medio de la cual se regula el derecho fundamental a la salud y se dictan otras disposiciones</em>.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=60733',
+    },
+    {
+      referencia:
+        'Congreso de la República de Colombia. (2024). <em>Ley 2386 de 2024: Política nacional de investigación científica, desarrollo tecnológico, innovación y producción de la industria farmacéutica para la autonomía sanitaria</em>.',
+      link:
+        'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=158637',
+    },
+    {
+      referencia:
+        'Departamento Nacional de Planeación. (2021). <em>CONPES 4069: Política nacional de ciencia, tecnología e innovación 2022–2031</em>.',
+      link: 'https://colaboracion.dnp.gov.co/CDT/Conpes/Económicos/3582.pdf',
+    },
+    {
+      referencia:
+        'Departamento Nacional de Planeación. (2025b). <em>CONPES 4145: Lineamientos de política para el marco de inversión en I+D</em>.',
+      link:
+        'https://colaboracion.dnp.gov.co/CDT/Conpes/Econ%C3%B3micos/4145.pdf',
+    },
+    {
+      referencia:
+        'Equipo de Expertos en Ciencia y Tecnología. (2017). <em>Innovación: Tipos y características fundamentales</em>. Universidad Internacional de Valencia.',
+      link:
+        'https://www.universidadviu.com/es/actualidad/nuestros-expertos/tipos-de-innovacion-y-caracteristicas-fundamentales',
+    },
+    {
+      referencia:
+        'Ricciardelli, A., Mercurio, L., & Salvatore, C. (2025). <em>Advancing quadruple helix theory for health systems innovation</em>. BMC Health Services Research, 25, 1346.',
+      link: 'https://doi.org/10.1186/s12913-025-13450-w',
+    },
+    {
+      referencia:
+        'Departamento Nacional de Planeación. (2025b). <em>CONPES 4145: Lineamientos de política para el marco de inversión en I+D</em>.',
+      link:
+        'https://colaboracion.dnp.gov.co/CDT/Conpes/Econ%C3%B3micos/4145.pdf',
+    },
+    {
+      referencia:
+        'Equipo de Expertos en Ciencia y Tecnología. (2017). <em>Innovación: Tipos y características fundamentales</em>. Universidad Internacional de Valencia.',
+      link:
+        'https://www.universidadviu.com/es/actualidad/nuestros-expertos/tipos-de-innovacion-y-caracteristicas-fundamentales',
+    },
+    {
+      referencia:
+        'Ricciardelli, A., Mercurio, L., & Salvatore, C. (2025). <em>Advancing quadruple helix theory for health systems innovation</em>. BMC Health Services Research, 25, 1346.',
+      link: 'https://doi.org/10.1186/s12913-025-13450-w',
     },
   ],
   creditos: [
