@@ -306,23 +306,6 @@ export default {
         'Ricciardelli, A., Mercurio, L., & Salvatore, C. (2025). <em>Advancing quadruple helix theory for health systems innovation</em>. BMC Health Services Research, 25, 1346.',
       link: 'https://doi.org/10.1186/s12913-025-13450-w',
     },
-    {
-      referencia:
-        'Departamento Nacional de Planeación. (2025b). <em>CONPES 4145: Lineamientos de política para el marco de inversión en I+D</em>.',
-      link:
-        'https://colaboracion.dnp.gov.co/CDT/Conpes/Econ%C3%B3micos/4145.pdf',
-    },
-    {
-      referencia:
-        'Equipo de Expertos en Ciencia y Tecnología. (2017). <em>Innovación: Tipos y características fundamentales</em>. Universidad Internacional de Valencia.',
-      link:
-        'https://www.universidadviu.com/es/actualidad/nuestros-expertos/tipos-de-innovacion-y-caracteristicas-fundamentales',
-    },
-    {
-      referencia:
-        'Ricciardelli, A., Mercurio, L., & Salvatore, C. (2025). <em>Advancing quadruple helix theory for health systems innovation</em>. BMC Health Services Research, 25, 1346.',
-      link: 'https://doi.org/10.1186/s12913-025-13450-w',
-    },
   ],
   creditos: [
     {
