@@ -66,7 +66,9 @@ figcaption
   &-2
     background-color: #F1F6F9
   &-3
-    background: linear-gradient(90deg,rgba(244, 244, 244, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(90deg,rgba(244, 244, 244, 1) 0%, rgba(255, 255, 255, 1) 100%)
+  &-4
+    background-color: #EDFBFA
   &-white
     background-color: white !important
     border: 1px solid $lightest-gray
@@ -101,11 +103,11 @@ figcaption
   &-2
     background-image: url("../assets/curso/bg2.png") !important
     background-position: bottom
-  &-2
+  &-3
     background-image: url("../assets/curso/bg3.png") !important
     background-position: bottom
   &-slider
-    //background-image: url("../assets/bg/bg-slider.png") !important
+    background-image: url("../assets/curso/bg-slider.png") !important
     background-position: bottom
 
 /////////IMG_100%_CAJON_MEDIO/////////
@@ -187,7 +189,93 @@ figcaption
 .tabs-a.color-acento-botones .tabs-a__tab__selected 
   background-color: #FFD256
 .tabs-a__tab
-  background-color: #DBDBDA
+  background-color: #F1F6F9
 .tarjeta.color-acento-botones--borde
   background-color: #F1F6F9
   border: solid 4px #F1F6F9
+  
+
+////////////AJUSTE TAMAÑO CONTERNEDOR IZQUIERO TABS-A//////////
+.tabs-a
+  @media (min-width: 1200px) 
+    .row
+      .col-xl-3 
+        flex: 0 0 auto
+        width: 45%
+      .col-xl-9
+        flex: 0 0 auto
+        width: 55%
+  @media (min-width: 992px) 
+    .row
+      .col-lg-4 
+        flex: 0 0 auto
+        width: 45%
+      .col-lg-8 
+        flex: 0 0 auto
+        width: 55%
+
+//////// Card hover ////////////
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #F1F3FB
+      opacity: 0.8
+      h4
+        color: $color-sistema-texto
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #F1F3FB
+    text-align: center
+
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+///////////// CUSTOM LINEA DE TIEMPO D
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #FFD256 !important
+      color: $color-sistema-texto
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #E2E7F7
+
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #E2E7F7
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #adb8c2 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #F1F6F9
+
+.linea-tiempo-d__item__content__title
+  @media screen and ( max-width: $bp-max-xs )
+    height: 55px
+  
+//////////////CUSTON SLYDER-A////////
+.slyder-a__bullets__item 
+  background-color: #CDD5F2
+  border: #CDD5F2
+.slyder-a__bullets__item--active
+  background-color: #6F88DA
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: #FFD256
+.slyder-a__bullets__item
+  @media screen and ( max-width: $bp-max-xs )
+    margin: 0 5px
