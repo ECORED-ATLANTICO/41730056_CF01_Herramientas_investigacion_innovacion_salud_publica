@@ -68,17 +68,17 @@
           img(src="@/assets/curso/tema3/6.png", data-aos="zoom-in")
       .col-lg-8
         LineaTiempoD.color-secundario
-          p(numero="1" titulo="Organización  Mundial de la Salud (OMS)") La Estrategia Mundial y Plan de Acción sobre Salud Pública, Innovación y Propiedad Intelectual orienta a los Estados en investigación, innovación tecnológica, producción local y evaluación de tecnologías sanitarias.
+          p(numero="1" titulo="A. Organización  Mundial de la Salud (OMS)") La Estrategia Mundial y Plan de Acción sobre Salud Pública, Innovación y Propiedad Intelectual orienta a los Estados en investigación, innovación tecnológica, producción local y evaluación de tecnologías sanitarias.
           
-          p(numero="2" titulo="Organización Panamericana de la Salud (OPS)") La Plataforma Regional de Innovación y Producción y la Agenda de Salud Sostenible para las Américas promueven la innovación, la seguridad regional y el acceso equitativo a tecnologías sanitarias.
+          p(numero="2" titulo="B. Organización Panamericana de la Salud (OPS)") La Plataforma Regional de Innovación y Producción y la Agenda de Salud Sostenible para las Américas promueven la innovación, la seguridad regional y el acceso equitativo a tecnologías sanitarias.
           
-          p(numero="3" titulo="Naciones Unidas - ODS") El ODS 3 (Salud y bienestar) impulsa el uso de la ciencia, la tecnología y la innovación para alcanzar metas de salud y desarrollo sostenible.
+          p(numero="3" titulo="C. Naciones Unidas - ODS") El ODS 3 (Salud y bienestar) impulsa el uso de la ciencia, la tecnología y la innovación para alcanzar metas de salud y desarrollo sostenible.
           
-          p(numero="4" titulo="UNCTAD") Promueve la ciencia, tecnología e innovación como ejes para fortalecer capacidades, infraestructura y resiliencia de los sistemas de salud.
+          p(numero="4" titulo="D. UNCTAD") Promueve la ciencia, tecnología e innovación como ejes para fortalecer capacidades, infraestructura y resiliencia de los sistemas de salud.
 
-          p(numero="3" titulo="OMPI (WIPO)") Regula tratados internacionales de propiedad intelectual, buscando equilibrar la protección de innovaciones con el acceso a tecnologías sanitarias esenciales.
+          p(numero="3" titulo="E. OMPI (WIPO)") Regula tratados internacionales de propiedad intelectual, buscando equilibrar la protección de innovaciones con el acceso a tecnologías sanitarias esenciales.
           
-          p(numero="4" titulo="OCDE") Aporta marcos metodológicos como el Manual de Oslo, que orienta la clasificación y medición de la innovación en el sector salud.
+          p(numero="4" titulo="F. OCDE") Aporta marcos metodológicos como el Manual de Oslo, que orienta la clasificación y medición de la innovación en el sector salud.
 
     separador
     
@@ -109,23 +109,23 @@
           img(src="@/assets/curso/tema3/9.png", data-aos="zoom-in")
       .col-lg-8.order-lg-1
         TabsA.color-acento-botones
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Fundamento constitucional y legal")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Pilar 1. Fundamento constitucional y legal")
             figure.mb-3
               img(src="@/assets/curso/tema3/10.png", style="max-width: 420px", data-aos="zoom-in").mx-auto
             p.mb-0 Establece la salud como un derecho fundamental y una obligación del Estado, garantizando su acceso, calidad y equidad, y promoviendo la innovación como medio para su realización.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Base científica y tecnológica")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Pilar 2. Base científica y tecnológica")
             figure.mb-3
               img(src="@/assets/curso/tema3/11.png", style="max-width: 420px", data-aos="zoom-in").mx-auto
             p.mb-0 Orienta la investigación, el desarrollo tecnológico y la transferencia de conocimiento en salud, priorizando la inversión en ciencia, tecnología e innovación.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Articulación estratégica")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Pilar 3. Articulación estratégica")
             figure.mb-3
               img(src="@/assets/curso/tema3/12.png", style="max-width: 420px", data-aos="zoom-in").mx-auto
             p.mb-0 Promueve la coordinación entre políticas, sectores y actores para fortalecer la investigación, la innovación y la autonomía sanitaria del país.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Carácter financiero")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Pilar 4. Carácter financiero")
             figure.mb-3
               img(src="@/assets/curso/tema3/13.png", style="max-width: 420px", data-aos="zoom-in").mx-auto
             p.mb-0 Define los lineamientos y mecanismos de financiación que respaldan proyectos de innovación en salud pública, asegurando su sostenibilidad.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Fundamento institucional")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Pilar 5. Fundamento institucional")
             figure.mb-3
               img(src="@/assets/curso/tema3/14.png", style="max-width: 420px", data-aos="zoom-in").mx-auto
             p.mb-0 Integra modelos de gestión pública que evalúan y fortalecen la gestión del conocimiento y la innovación, garantizando la aplicación efectiva de los resultados de investigación.
@@ -202,7 +202,7 @@
       div(titulo="Hélice académica")
         p.ms-5 La academia y los centros de investigación constituyen el eje de generación de conocimiento científico y tecnológico. Universidades, institutos de investigación y centros especializados desarrollan estudios orientados a problemáticas reales de salud pública, fortaleciendo la investigación aplicada y la formación de talento humano. Esta hélice impulsa la transferencia de resultados hacia el sistema de salud, apoyando la toma de decisiones basadas en evidencia. Su aporte permite que la ciencia trascienda el ámbito académico y se convierta en una herramienta práctica para mejorar la calidad, eficiencia y pertinencia de las intervenciones en salud.
       div(titulo="Hélice empresarial")
-        p.ms-5 El sector productivo cumple un papel fundamental en la transformación del conocimiento en soluciones escalables y sostenibles. Empresas, startups y emprendimientos del sector salud y tecnológico aportan capacidades de gestión, innovación, financiamiento y comercialización. Mediante la articulación con el Estado y la academia, facilitan la validación, producción y adopción de tecnologías, servicios y modelos innovadores. Esta hélice contribuye a que las innovaciones lleguen efectivamente al sistema de salud, fortaleciendo la competitividad, la sostenibilidad económica y la modernización de los servicios sanitarios.
+        p.ms-5 El sector productivo cumple un papel fundamental en la transformación del conocimiento en soluciones escalables y sostenibles. Empresas, <em>startups</em> y emprendimientos del sector salud y tecnológico aportan capacidades de gestión, innovación, financiamiento y comercialización. Mediante la articulación con el Estado y la academia, facilitan la validación, producción y adopción de tecnologías, servicios y modelos innovadores. Esta hélice contribuye a que las innovaciones lleguen efectivamente al sistema de salud, fortaleciendo la competitividad, la sostenibilidad económica y la modernización de los servicios sanitarios.
       div(titulo="Hélice social")
         p.ms-5 La sociedad civil representa la dimensión participativa del ecosistema de innovación, asegurando que las soluciones desarrolladas respondan a las necesidades reales de la población. Comunidades, organizaciones sociales y usuarios del sistema de salud aportan conocimiento del territorio, perspectivas culturales y criterios de aceptación social. Su participación en el diseño, implementación y evaluación de innovaciones favorece la equidad, la apropiación social del conocimiento y la sostenibilidad de las intervenciones. Esta hélice fortalece la democratización de la innovación y consolida a la ciudadanía como actor activo en la transformación del sistema de salud.
     

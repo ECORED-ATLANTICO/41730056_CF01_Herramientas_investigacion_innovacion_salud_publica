@@ -33,13 +33,13 @@
           img(src="@/assets/curso/tema4/3.png", data-aos="zoom-in")
       .col-lg-8
         LineaTiempoD.color-secundario
-          p(numero="1" titulo="Beneficencia y no maleficencia") La innovación debe orientarse a maximizar beneficios colectivos, mejorar resultados en salud, eficiencia y cobertura, al tiempo que minimiza riesgos, daños o efectos adversos no previstos. Esto implica evaluar de forma rigurosa las posibles externalidades negativas, sesgos tecnológicos o impactos diferenciados, especialmente en el uso de herramientas como la inteligencia artificial o sistemas automatizados.
+          p(numero="A" titulo="Beneficencia y no maleficencia") La innovación debe orientarse a maximizar beneficios colectivos, mejorar resultados en salud, eficiencia y cobertura, al tiempo que minimiza riesgos, daños o efectos adversos no previstos. Esto implica evaluar de forma rigurosa las posibles externalidades negativas, sesgos tecnológicos o impactos diferenciados, especialmente en el uso de herramientas como la inteligencia artificial o sistemas automatizados.
           
-          p(numero="2" titulo="Justicia y equidad") Exige que los beneficios y cargas de la innovación se distribuyan de manera justa, priorizando a poblaciones vulnerables y territorios históricamente rezagados. La innovación en salud pública debe contribuir a reducir brechas de acceso y no limitarse a soluciones que favorezcan únicamente a grupos con mayores recursos o capacidades.
+          p(numero="B" titulo="Justicia y equidad") Exige que los beneficios y cargas de la innovación se distribuyan de manera justa, priorizando a poblaciones vulnerables y territorios históricamente rezagados. La innovación en salud pública debe contribuir a reducir brechas de acceso y no limitarse a soluciones que favorezcan únicamente a grupos con mayores recursos o capacidades.
           
-          p(numero="3" titulo="Respeto por la autonomía y participación") Aunque muchas innovaciones tienen un alcance colectivo, es fundamental garantizar el respeto por la autonomía individual y comunitaria. Esto implica asegurar información clara, participación informada y mecanismos reales de consulta, consentimiento y corresponsabilidad social en los procesos de innovación.
+          p(numero="C" titulo="Respeto por la autonomía y participación") Aunque muchas innovaciones tienen un alcance colectivo, es fundamental garantizar el respeto por la autonomía individual y comunitaria. Esto implica asegurar información clara, participación informada y mecanismos reales de consulta, consentimiento y corresponsabilidad social en los procesos de innovación.
           
-          p(numero="4" titulo="Transparencia y rendición de cuentas") Los procesos de innovación deben ser abiertos y comprensibles en sus objetivos, métodos, riesgos y resultados. Las instituciones públicas, académicas y privadas tienen la responsabilidad de explicar y justificar las decisiones adoptadas, fortaleciendo la confianza social y la legitimidad de las intervenciones.
+          p(numero="D" titulo="Transparencia y rendición de cuentas") Los procesos de innovación deben ser abiertos y comprensibles en sus objetivos, métodos, riesgos y resultados. Las instituciones públicas, académicas y privadas tienen la responsabilidad de explicar y justificar las decisiones adoptadas, fortaleciendo la confianza social y la legitimidad de las intervenciones.
 
           
 
@@ -49,13 +49,13 @@
           img(src="@/assets/curso/tema4/4.png", data-aos="zoom-in")
       .col-lg-8.order-lg-1
         LineaTiempoD.color-secundario
-          p(numero="5" titulo="Principio de precaución") Ante la novedad tecnológica y la evidencia científica incompleta, se debe actuar con cautela. La innovación no debe avanzar sin evaluaciones previas, pruebas piloto y mecanismos de reversibilidad, especialmente en tecnologías emergentes como la inteligencia artificial, el monitoreo digital o el uso masivo de datos en salud.
+          p(numero="E" titulo="Principio de precaución") Ante la novedad tecnológica y la evidencia científica incompleta, se debe actuar con cautela. La innovación no debe avanzar sin evaluaciones previas, pruebas piloto y mecanismos de reversibilidad, especialmente en tecnologías emergentes como la inteligencia artificial, el monitoreo digital o el uso masivo de datos en salud.
           
-          p(numero="6" titulo="Responsabilidad social y sostenibilidad") La innovación debe diseñarse con una visión de largo plazo, considerando su viabilidad social, económica y ambiental. Los actores innovadores deben asumir responsabilidad por las consecuencias no intencionadas, monitorear impactos y realizar ajustes que garanticen la sostenibilidad y pertinencia de las soluciones.
+          p(numero="F" titulo="Responsabilidad social y sostenibilidad") La innovación debe diseñarse con una visión de largo plazo, considerando su viabilidad social, económica y ambiental. Los actores innovadores deben asumir responsabilidad por las consecuencias no intencionadas, monitorear impactos y realizar ajustes que garanticen la sostenibilidad y pertinencia de las soluciones.
 
-          p(numero="7" titulo="Inclusividad y participación comunitaria") La sociedad civil debe ser reconocida como cocreadora de la innovación y no solo como beneficiaria. La participación de comunidades y organizaciones sociales fortalece la pertinencia cultural, la apropiación local y la legitimidad de los procesos innovadores.
+          p(numero="G" titulo="Inclusividad y participación comunitaria") La sociedad civil debe ser reconocida como cocreadora de la innovación y no solo como beneficiaria. La participación de comunidades y organizaciones sociales fortalece la pertinencia cultural, la apropiación local y la legitimidad de los procesos innovadores.
           
-          p(numero="8" titulo="Evaluación ética continua y flexibilidad") La innovación es un proceso dinámico e iterativo, por lo que requiere mecanismos permanentes de seguimiento y evaluación ética. Estos permiten identificar efectos adversos, corregir desviaciones y, si es necesario, ajustar o retirar intervenciones que no cumplan con los principios éticos establecidos.
+          p(numero="H" titulo="Evaluación ética continua y flexibilidad") La innovación es un proceso dinámico e iterativo, por lo que requiere mecanismos permanentes de seguimiento y evaluación ética. Estos permiten identificar efectos adversos, corregir desviaciones y, si es necesario, ajustar o retirar intervenciones que no cumplan con los principios éticos establecidos.
 
     separador
     
@@ -147,41 +147,11 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema4/17.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 En Colombia, la regulación de la propiedad intelectual se encuentra enmarcada en la Decisión 486 de 2000 sobre Régimen Común sobre Propiedad Industrial, y las disposiciones de la Superintendencia de Industria y Comercio (SIC). A nivel institucional, los organismos públicos de investigación, como el Instituto Nacional de Salud, cuentan con políticas internas de gestión de propiedad intelectual y transferencia tecnológica, que regulen la titularidad, protección y uso social de los resultados de investigación. Estas políticas son esenciales para evitar la pérdida de derechos, garantizar el reconocimiento de los investigadores y promover la generación de impacto social a partir del conocimiento.
+        p.mb-0 En Colombia, la regulación de la propiedad intelectual se encuentra enmarcada en la Decisión 486 de 2000 sobre Régimen Común sobre Propiedad Industrial, y las disposiciones de la Superintendencia de Industria y Comercio (SIC). A nivel institucional, los organismos públicos de investigación, como el Instituto Nacional de Salud, cuentan con políticas internas de gestión de propiedad intelectual y transferencia tecnológica, que regulan la titularidad, protección y uso social de los resultados de investigación. Estas políticas son esenciales para evitar la pérdida de derechos, garantizar el reconocimiento de los investigadores y promover la generación de impacto social a partir del conocimiento.
 
-    p Finalmente, el enfoque contemporáneo de la propiedad intelectual en salud pública se orienta hacia modelos más abiertos, colaborativos y solidarios. Iniciativas como el licenciamiento abierto (open licensing), los bancos de patentes compartidas, o los acuerdos de acceso a medicamentos esenciales, promueven la democratización del conocimiento científico y tecnológico. Estos mecanismos permiten que innovaciones clave, por ejemplo, pruebas diagnósticas, vacunas o plataformas de datos genómicos, puedan ser utilizadas y adaptadas por diferentes actores, ampliando su impacto social. En este sentido, la propiedad intelectual deja de ser una barrera para convertirse en una herramienta estratégica para la innovación inclusiva y sostenible, alineada con los principios éticos y los objetivos de salud pública global.
+    p Finalmente, el enfoque contemporáneo de la propiedad intelectual en salud pública se orienta hacia modelos más abiertos, colaborativos y solidarios. Iniciativas como el licenciamiento abierto (<em>open licensing</em>), los bancos de patentes compartidas, o los acuerdos de acceso a medicamentos esenciales, promueven la democratización del conocimiento científico y tecnológico. Estos mecanismos permiten que innovaciones clave, por ejemplo, pruebas diagnósticas, vacunas o plataformas de datos genómicos, puedan ser utilizadas y adaptadas por diferentes actores, ampliando su impacto social. En este sentido, la propiedad intelectual deja de ser una barrera para convertirse en una herramienta estratégica para la innovación inclusiva y sostenible, alineada con los principios éticos y los objetivos de salud pública global.
 
-  .bg-fondo-slider.tarjeta.mb-5
-    .p-4.p-lg-5
-      SlyderA(tipo="b").bg-color-white.p-4.tarjeta
-        .row.justify-content-center.align-items-center
-          .col-lg-4.mb-3.mb-lg-0
-            figure
-              img(src='@/assets/curso/tema3/15.png', alt='Imagen de acompañamiento')
-          .col-lg-8.mb-4.mb-md-0
-            h4 CONPES 4145 de 2025
-            p.mb-0 Fortalece la inversión en investigación, desarrollo e innovación en todos los sectores, incluido el de la salud, promoviendo la cooperación entre actores públicos, privados y académicos.
-        .row.justify-content-center.align-items-center
-          .col-lg-4.mb-3.mb-lg-0
-            figure
-              img(src='@/assets/curso/tema3/16.png', alt='Imagen de acompañamiento')
-          .col-lg-8.mb-4.mb-md-0
-            h4 CONPES 4144 de 2025
-            p.mb-0 Orienta el uso responsable de la IA en salud, reconociendo oportunidades para mejorar eficiencia, atención y gestión, así como riesgos éticos y psicosociales.
-        .row.justify-content-center.align-items-center
-          .col-lg-4.mb-3.mb-lg-0
-            figure
-              img(src='@/assets/curso/tema3/17.png', alt='Imagen de acompañamiento')
-          .col-lg-8.mb-4.mb-md-0
-            h4 CONPES 4170 de 2025
-            p.mb-0 Impulsa la producción nacional de medicamentos, vacunas y tecnologías sanitarias, fortaleciendo la autonomía sanitaria y reduciendo la dependencia externa.
-        .row.justify-content-center.align-items-center
-          .col-lg-4.mb-3.mb-lg-0
-            figure
-              img(src='@/assets/curso/tema3/18.png', alt='Imagen de acompañamiento')
-          .col-lg-8.mb-4.mb-md-0
-            h4 CONPES 4069 de 2021
-            p.mb-0 Marco rector del ecosistema nacional de investigación e innovación, que prioriza la salud como sector estratégico para la investigación aplicada y la transferencia de conocimiento.
+  
         
 
 </template>

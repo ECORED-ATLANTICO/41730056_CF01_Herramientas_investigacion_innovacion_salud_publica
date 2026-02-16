@@ -152,7 +152,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CFA1_41730056__DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -347,13 +347,13 @@ export default {
         },
         {
           nombre: 'Angela Navas Cáceres',
-          cargo: 'Profesional Especializado',
+          cargo: 'Experta Técnica',
           centro:
             'Subdirección de Innovación en salud pública - Dirección de Investigación-Instituto Nacional de Salud',
         },
         {
           nombre: 'Gina Carol Villate Calderón',
-          cargo: 'Expertas Técnica',
+          cargo: 'Experta Técnica',
           centro:
             'Centro de Formación de Talento humano en Salud - Regional Distrito Capital',
         },
