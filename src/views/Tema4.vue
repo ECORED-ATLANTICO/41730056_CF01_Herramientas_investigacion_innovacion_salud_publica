@@ -103,7 +103,7 @@
               figure
                 img(src='@/assets/curso/tema4/10.png', alt='Imagen de acompañamiento')
             .col-lg-8.mb-4.mb-md-0
-              h4 Secretos industriales (know-how)
+              h4 Secretos industriales (<em>know-how</em>)
               p.mb-0 Comprenden conocimientos técnicos, procedimientos o prácticas no divulgadas que son esenciales para el funcionamiento o reproducción de una tecnología. Son especialmente relevantes en procesos industriales, farmacéuticos o de laboratorio.
           .row.justify-content-center.align-items-center
             .col-lg-4.mb-3.mb-lg-0
@@ -151,6 +151,37 @@
 
     p Finalmente, el enfoque contemporáneo de la propiedad intelectual en salud pública se orienta hacia modelos más abiertos, colaborativos y solidarios. Iniciativas como el licenciamiento abierto (open licensing), los bancos de patentes compartidas, o los acuerdos de acceso a medicamentos esenciales, promueven la democratización del conocimiento científico y tecnológico. Estos mecanismos permiten que innovaciones clave, por ejemplo, pruebas diagnósticas, vacunas o plataformas de datos genómicos, puedan ser utilizadas y adaptadas por diferentes actores, ampliando su impacto social. En este sentido, la propiedad intelectual deja de ser una barrera para convertirse en una herramienta estratégica para la innovación inclusiva y sostenible, alineada con los principios éticos y los objetivos de salud pública global.
 
+  .bg-fondo-slider.tarjeta.mb-5
+    .p-4.p-lg-5
+      SlyderA(tipo="b").bg-color-white.p-4.tarjeta
+        .row.justify-content-center.align-items-center
+          .col-lg-4.mb-3.mb-lg-0
+            figure
+              img(src='@/assets/curso/tema3/15.png', alt='Imagen de acompañamiento')
+          .col-lg-8.mb-4.mb-md-0
+            h4 CONPES 4145 de 2025
+            p.mb-0 Fortalece la inversión en investigación, desarrollo e innovación en todos los sectores, incluido el de la salud, promoviendo la cooperación entre actores públicos, privados y académicos.
+        .row.justify-content-center.align-items-center
+          .col-lg-4.mb-3.mb-lg-0
+            figure
+              img(src='@/assets/curso/tema3/16.png', alt='Imagen de acompañamiento')
+          .col-lg-8.mb-4.mb-md-0
+            h4 CONPES 4144 de 2025
+            p.mb-0 Orienta el uso responsable de la IA en salud, reconociendo oportunidades para mejorar eficiencia, atención y gestión, así como riesgos éticos y psicosociales.
+        .row.justify-content-center.align-items-center
+          .col-lg-4.mb-3.mb-lg-0
+            figure
+              img(src='@/assets/curso/tema3/17.png', alt='Imagen de acompañamiento')
+          .col-lg-8.mb-4.mb-md-0
+            h4 CONPES 4170 de 2025
+            p.mb-0 Impulsa la producción nacional de medicamentos, vacunas y tecnologías sanitarias, fortaleciendo la autonomía sanitaria y reduciendo la dependencia externa.
+        .row.justify-content-center.align-items-center
+          .col-lg-4.mb-3.mb-lg-0
+            figure
+              img(src='@/assets/curso/tema3/18.png', alt='Imagen de acompañamiento')
+          .col-lg-8.mb-4.mb-md-0
+            h4 CONPES 4069 de 2021
+            p.mb-0 Marco rector del ecosistema nacional de investigación e innovación, que prioriza la salud como sector estratégico para la investigación aplicada y la transferencia de conocimiento.
         
 
 </template>

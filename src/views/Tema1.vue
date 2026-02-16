@@ -71,7 +71,7 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 La innovación y la investigación en salud pública mantienen una relación indispensable, que se manifiesta desde la formulación de una hipótesis o proyecto de investigación hasta la implementación de resultados y su evaluación en contextos reales. Esta relación puede comprenderse en tres funciones que se retroalimentan dentro del ciclo I+D+i: la generación de conocimiento, su aplicación en soluciones innovadoras y la evaluación de su impacto en la salud de la población, permitiendo ajustar, mejorar y validar las intervenciones según las necesidades del entorno sanitario:
         
-        TabsC.color-acento-contenido(data-aos="zoom-in")
+        TabsC.color-acento-contenido(data-aos="zoom-in").mb-5
           .p-3.p-md-4(titulo="Generación de conocimiento")
             .row.justify-content-center.align-items-center
               .col-lg-6.mb-4.mb-md-0
@@ -98,7 +98,18 @@
                   img(src='@/assets/curso/tema1/9.png', alt='Texto que describa la imagen')
 
     
-     
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-7.col-xl-5.mb-3.mb-lg-0
+        .bg-color-5.p-4.px-lg-5.tarjeta 
+          p.mb-0 En el contexto de la salud pública, la protección de estos activos debe estar acompañada de principios de equidad, acceso y responsabilidad social. Las instituciones públicas, universidades y centros de investigación que desarrollan innovaciones financiadas con recursos estatales tienen la obligación ética y legal de garantizar que sus resultados sean accesibles y beneficiosos para la población.
+      .col-md-8.col-lg-5.col-xl-3.mb-3.mb-xl-0
+        figure
+          img(src="@/assets/curso/tema4/12.png", data-aos="zoom-in")
+      .col-xl-4
+        img.d-xl-flex.d-none(src="@/assets/curso/tema4/13.svg", style="max-width: 90px").mb-3
+        p.mb-0 Por ello, la gestión de la propiedad intelectual en el sector salud no se limita a registrar o patentar, sino que implica definir estrategias de transferencia tecnológica responsable, en las cuales se equilibren los derechos de los innovadores con las necesidades de los sistemas de salud.
+    
+
  
 </template>
 

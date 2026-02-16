@@ -291,7 +291,7 @@ export default {
     },
     {
       referencia:
-        'Departamento Nacional de Planeación. (2025b). <em>CONPES 4145: Lineamientos de política para el marco de inversión en I+D</em>.',
+        'Departamento Nacional de Planeación. (2025). <em>CONPES 4145: Lineamientos de política para el marco de inversión en I+D</em>.',
       link:
         'https://colaboracion.dnp.gov.co/CDT/Conpes/Econ%C3%B3micos/4145.pdf',
     },
@@ -312,14 +312,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo:
+            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Miguel de Jesús Paredes Maestre',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -327,9 +328,45 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Angélica Rocío Borbón Orjuela',
+          cargo: 'Profesional Especializado',
+          centro:
+            'Subdirección de Innovación en salud pública - Dirección de Investigación-Instituto Nacional de Salud',
+        },
+        {
+          nombre: 'Leonor Cristina Cañón Uribe',
+          cargo: 'Profesional Especializado',
+          centro:
+            'Subdirección de Innovación en salud pública - Dirección de Investigación-Instituto Nacional de Salud',
+        },
+        {
+          nombre: 'Maria Luz Gunturiz Albarracin',
+          cargo: 'Profesional Especializado',
+          centro:
+            'Subdirección de Innovación en salud pública - Dirección de Investigación-Instituto Nacional de Salud',
+        },
+        {
+          nombre: 'Angela Navas Cáceres',
+          cargo: 'Profesional Especializado',
+          centro:
+            'Subdirección de Innovación en salud pública - Dirección de Investigación-Instituto Nacional de Salud',
+        },
+        {
+          nombre: 'Gina Carol Villate Calderón',
+          cargo: 'Expertas Técnica',
+          centro:
+            'Centro de Formación de Talento humano en Salud - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Eliana Milena Buitrago Umaña',
+          cargo: 'Asesora Pedagógica',
+          centro:
+            'Centro de Formación de Talento humano en Salud - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Heydy Cristina González García',
+          cargo: 'Evaluador instruccional',
+          centro: 'Centro de Comercio y Servicios -Regional Atlántico',
         },
       ],
     },
@@ -337,19 +374,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Jesus Antonio Vecino Valero',
+          cargo: 'Diseñador <em>web</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Carlos Andrés Diaz Pinto',
+          cargo: 'Desarrollador <em>full stack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Nelson Iván Vera Briceño',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -357,14 +394,24 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Luz Karime Amaya Cabra',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Laura Daniela Burgos Rueda',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Jonathan Adié Villafañe',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Karine Isabel Ospino Fritz',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
