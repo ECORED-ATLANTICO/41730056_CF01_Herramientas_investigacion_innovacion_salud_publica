@@ -97,7 +97,7 @@
                 img(src='@/assets/curso/tema4/9.png', alt='Imagen de acompañamiento')
             .col-lg-8.mb-4.mb-md-0
               h4 Derechos de autor
-              p.mb-0 Amparan obras originales de carácter intelectual, como software en salud, bases de datos, plataformas digitales, materiales educativos, guías clínicas y protocolos metodológicos, protegiendo la forma de expresión del conocimiento.
+              p.mb-0 Amparan obras originales de carácter intelectual, como <em>software</em> en salud, bases de datos, plataformas digitales, materiales educativos, guías clínicas y protocolos metodológicos, protegiendo la forma de expresión del conocimiento.
           .row.justify-content-center.align-items-center
             .col-lg-4.mb-3.mb-lg-0
               figure
