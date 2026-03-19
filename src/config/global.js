@@ -1,8 +1,8 @@
 export default {
   global: {
-    Name: 'Herramientas y normativa de innovación en salud pública',
+    Name: 'Herramientas y normativa de innovación en Salud pública',
     Description:
-      'Este componente formativo aborda los fundamentos conceptuales, tipos y marcos normativos de la innovación en salud pública, destacando su relación con la investigación, la ética y la propiedad intelectual. Lo anterior, permite comprender la innovación en salud y su aplicación para fortalecer propuestas de investigación contextualizadas y sostenibles.',
+      'Este componente formativo aborda los fundamentos conceptuales, tipos y marcos normativos de la innovación en Salud pública, destacando su relación con la investigación, la ética y la propiedad intelectual. Lo anterior, permite comprender la innovación en salud y su aplicación para fortalecer propuestas de investigación contextualizadas y sostenibles.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -36,7 +36,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Innovación en salud pública',
+        titulo: 'Innovación en Salud pública',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -139,11 +139,11 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      {
+      /*{
         nombreRuta: 'complementario',
         icono: 'far fa-folder-open',
         titulo: 'Material complementario',
-      },
+      },*/
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -152,7 +152,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA1_41730056__DU.pdf',
+        download: 'downloads/CFA1_41730056_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -186,7 +186,7 @@ export default {
     {
       tema: 'Propiedad intelectual',
       referencia:
-        'Romero Calvo, D., & Cuesta Quintero, J. C. (2004). <em>Propiedad intelectual y salud pública</em>. Cuadernos Latinoamericanos de Administración, 1(1), 57–74.',
+        'Romero Calvo, D., & Cuesta Quintero, J. C. (2004). <em>Propiedad intelectual y Salud pública</em>. Cuadernos Latinoamericanos de Administración, 1(1), 57–74.',
       tipo: 'Artículo académico',
       link: 'https://www.redalyc.org/pdf/4096/409634371010.pdf',
     },
@@ -331,42 +331,42 @@ export default {
           nombre: 'Angélica Rocío Borbón Orjuela',
           cargo: 'Profesional Especializado',
           centro:
-            'Subdirección de Innovación en salud pública - Dirección de Investigación-Instituto Nacional de Salud',
+            'Subdirección de Innovación en Salud Pública - Dirección de Investigación-Instituto Nacional de Salud',
         },
         {
           nombre: 'Leonor Cristina Cañón Uribe',
           cargo: 'Profesional Especializado',
           centro:
-            'Subdirección de Innovación en salud pública - Dirección de Investigación-Instituto Nacional de Salud',
+            'Subdirección de Innovación en Salud Pública - Dirección de Investigación-Instituto Nacional de Salud',
         },
         {
           nombre: 'Maria Luz Gunturiz Albarracin',
           cargo: 'Profesional Especializado',
           centro:
-            'Subdirección de Innovación en salud pública - Dirección de Investigación-Instituto Nacional de Salud',
+            'Subdirección de Innovación en Salud Pública - Dirección de Investigación-Instituto Nacional de Salud',
         },
         {
           nombre: 'Angela Navas Cáceres',
           cargo: 'Experta Técnica',
           centro:
-            'Subdirección de Innovación en salud pública - Dirección de Investigación-Instituto Nacional de Salud',
+            'Centro de Formación de Talento Humano en Salud - Regional Distrito Capital',
         },
         {
           nombre: 'Gina Carol Villate Calderón',
           cargo: 'Experta Técnica',
           centro:
-            'Centro de Formación de Talento humano en Salud - Regional Distrito Capital',
+            'Centro de Formación de Talento Humano en Salud - Regional Distrito Capital',
         },
         {
           nombre: 'Eliana Milena Buitrago Umaña',
           cargo: 'Asesora Pedagógica',
           centro:
-            'Centro de Formación de Talento humano en Salud - Regional Distrito Capital',
+            'Centro de Formación de Talento Humano en Salud - Regional Distrito Capital',
         },
         {
           nombre: 'Heydy Cristina González García',
           cargo: 'Evaluador instruccional',
-          centro: 'Centro de Comercio y Servicios -Regional Atlántico',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },

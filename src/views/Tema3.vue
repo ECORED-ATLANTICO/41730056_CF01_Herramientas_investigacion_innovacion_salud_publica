@@ -130,7 +130,7 @@
               img(src="@/assets/curso/tema3/14.png", style="max-width: 420px", data-aos="zoom-in").mx-auto
             p.mb-0 Integra modelos de gestión pública que evalúan y fortalecen la gestión del conocimiento y la innovación, garantizando la aplicación efectiva de los resultados de investigación.
     
-    p.mb-5 En conjunto, el marco normativo Colombiano articula el derecho fundamental a la salud con la generación y aplicación del conocimiento científico y tecnológico, asegurando que la innovación contribuya al bienestar, la equidad y la sostenibilidad del sistema de salud. A partir de estos lineamientos, la política pública de innovación en salud se concreta mediante instrumentos de planeación, regulación e inversión, especialmente los documentos CONPES y otras disposiciones legales, que orientan la gobernanza del Sistema Nacional de Innovación, promueven la transformación digital, fortalecen la autonomía sanitaria y facilitan la toma de decisiones basadas en evidencia en salud pública.
+    p.mb-5 En conjunto, el marco normativo colombiano articula el derecho fundamental a la salud con la generación y aplicación del conocimiento científico y tecnológico, asegurando que la innovación contribuya al bienestar, la equidad y la sostenibilidad del sistema de salud. A partir de estos lineamientos, la política pública de innovación en salud se concreta mediante instrumentos de planeación, regulación e inversión, especialmente los documentos CONPES y otras disposiciones legales, que orientan la gobernanza del Sistema Nacional de Innovación, promueven la transformación digital, fortalecen la autonomía sanitaria y facilitan la toma de decisiones basadas en evidencia en salud pública.
 
     .bg-fondo-slider.tarjeta
       .p-4.p-lg-5

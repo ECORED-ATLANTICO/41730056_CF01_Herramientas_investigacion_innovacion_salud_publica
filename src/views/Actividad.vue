@@ -216,7 +216,11 @@ export default {
           imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Innovación de Marketing', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Innovación de <em>Marketing</em>',
+              esCorrecta: false,
+            },
             { id: 'b', texto: 'Innovación de Proceso', esCorrecta: true },
             {
               id: 'c',
@@ -239,7 +243,11 @@ export default {
             { id: 'a', texto: 'Innovación Disruptiva', esCorrecta: false },
             { id: 'b', texto: 'Innovación Organizacional', esCorrecta: false },
             { id: 'c', texto: 'Innovación de Producto', esCorrecta: false },
-            { id: 'd', texto: 'Innovación de Marketing', esCorrecta: true },
+            {
+              id: 'd',
+              texto: 'Innovación de <em>Marketing</em>',
+              esCorrecta: true,
+            },
           ],
           mensaje_correcto: 'Muy bien, felicitaciones',
           mensaje_incorrecto:
@@ -295,7 +303,7 @@ export default {
         {
           id: 12,
           texto:
-            'El sistema de propiedad intelectual abarca diferentes figuras de protección como las patentes, los derechos de autor, los secretos industriales (know-how) y las licencias de acceso abierto.',
+            'La vigilancia en salud pública utiliza de manera sistemática la recolección, análisis e interpretación de datos para orientar la toma de decisiones, la planificación de intervenciones y la evaluación de políticas sanitarias. ',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -393,7 +401,7 @@ export default {
         {
           id: 19,
           texto:
-            'El sistema de propiedad intelectual para la salud pública abarca diferentes figuras de protección, entre las que se encuentran las patentes, los derechos de autor, los secretos industriales (know-how) y las licencias de acceso abierto.',
+            'El sistema de propiedad intelectual para la salud pública abarca diferentes figuras de protección, entre las que se encuentran las patentes, los derechos de autor, los secretos industriales (<em>know-how</em>) y las licencias de acceso abierto.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
